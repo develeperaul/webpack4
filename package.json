@@ -1,0 +1,30 @@
+{
+  "name": "webpack4",
+  "version": "1.0.0",
+  "description": "webpack verstka",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develeperaul/webpack4.git"
+  },
+  "author": "raul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develeperaul/webpack4/issues"
+  },
+  "homepage": "https://github.com/develeperaul/webpack4#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
