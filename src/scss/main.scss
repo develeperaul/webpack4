@@ -1,0 +1,9 @@
+@import "./vendor";
+@import "./fonts";
+html {
+    background:green;
+}
+body {
+    background-image: url("../img/dark.svg");
+    font-family: "Montserrat-Black";
+}
